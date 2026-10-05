@@ -1,0 +1,11 @@
+# Somente os arquivos necessários entram no contexto do Docker.
+**
+!Dockerfile
+!deploy/
+!deploy/nginx.conf
+!index.html
+!styles.css
+!script.js
+!config.js
+!assets/
+!assets/**

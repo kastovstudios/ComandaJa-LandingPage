@@ -47,3 +47,7 @@ Com Node.js instalado, execute `npm run check`.
 ## Identidade real do sistema
 
 A logo vem de `src/Lanchonete/wwwroot/brand/comandaja-icon.png`. A tipografia usa exatamente a pilha definida em `src/Lanchonete/wwwroot/styles.css`: `Inter, "Segoe UI", Arial, sans-serif`, sem carregar ou inventar outra fonte. O nome da marca segue peso 750 e espaçamento -0,5 px, como no sistema. As cores principais são extraídas do CSS original.
+
+## Deploy no Coolify
+
+O projeto inclui Dockerfile com Nginx, porta interna 80 e health check em /health. Veja o passo a passo em [DEPLOY-COOLIFY.md](DEPLOY-COOLIFY.md). Há também docker-compose.coolify.yml como alternativa.
